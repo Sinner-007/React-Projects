@@ -1,13 +1,17 @@
 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .app{
-  background-image: url("img.jpg");
-  background: rgb(180, 139, 247);
+  background-image: url("img.gif");
+  /* background: rgb(180, 139, 247); */
   min-height: 100vh;
-  display: grid;
+  display:grid;
+  background-position: center;
+  background-size: cover;
 }
